@@ -1,0 +1,105 @@
+body {
+    margin: 0;
+    padding: 0; 
+    height: 100vh;
+    background: rgb(196, 194, 188);
+    
+   
+}
+
+header {
+    background: rgb(206, 197, 171);
+    font-family: 'Inconsolata', monospace;
+    display: flex;
+    justify-content: space-around;
+    align-items: baseline;
+    border-radius: 10px;
+    border-bottom: 2px solid grey;
+    padding: 20px;
+    margin: 10px;
+}
+
+header .nav-container {
+    align-items: flex-end;
+
+}
+
+nav a {
+    margin: 20px;
+    padding: 10px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+.name-container {
+    color: rgb(255, 255, 255);
+}
+
+.img-container {
+    position: absolute;
+    z-index: -1;
+    opacity: 0.6;
+    left: 10%;
+}
+
+.about-me {
+    position: relative;
+    top: 80%;
+    left: 35%;
+    width: 40%;
+}
+
+main {
+    color: rgb(255, 255, 255);
+    font-family: 'Source Code Pro', monospace;
+    margin: 10px;
+    padding: 10px;
+
+}
+
+
+img {
+    height: 400px;
+    width: 350px;
+    border-radius: 20px;
+}
+
+footer {
+    position: relative;
+    top: 0px;
+    text-align: center;
+    background: rgb(206, 197, 171);
+    font-family: 'Inconsolata', monospace;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-top: 2px solid grey;
+}
+
+footer a {
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+}
+
+i {
+    color: black;
+    width: 40px;
+    height: 40px;
+}
+
+.social-container {
+    display: flex;
+    justify-content: center;
+}
+
+#sub-btn {
+    width: 350px;
+    height: 50px;
+    margin-top: 5px;
+    border: none;
+    border-radius: 6px;
+}
+
+#subject {
+    border: none;
+    border-radius: 10px;
+}
