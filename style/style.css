@@ -1,20 +1,18 @@
 body {
     margin: 0;
     padding: 0; 
-    height: 100vh;
     background: #E9ECEF;
     
    
 }
 
 header {
-    background: rgb(218, 195, 132);
+    background: #805500;
     font-family: 'Oswald', sans-serif;
     display: flex;
     justify-content: space-around;
     align-items: baseline;
     border-radius: 10px;
-    border-bottom: 2px solid grey;
     padding: 20px;
     margin: 10px;
 }
@@ -54,12 +52,11 @@ nav a {
 
 main {
     color: rgb(8, 3, 3);
-    
     margin: 10px;
     padding: 10px;
     font-family: 'Nunito Sans', sans-serif;
-    
-    font-weight: 900;
+   
+    font-weight: 950;
 
 }
 
@@ -78,11 +75,13 @@ footer {
     text-align: center;
     background: rgb(218, 195, 132);
     font-family: 'Inconsolata', monospace;
-    color: rgb(8, 3, 3);
+    color: white;
     padding: 1px;
-    height: 20px;
+    height: 10px;
     font-family: 'Nunito Sans', sans-serif;
     height:auto;
+    background: #805500;
+    clear: both;
 }
 
 footer a {
@@ -118,7 +117,7 @@ form {
     padding: 10px;
     margin: 10px;
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
   }
@@ -129,46 +128,26 @@ form {
     border-bottom: 2px solid grey;
     margin: 5px;
     width: 300px;
+    background: rgba(119, 119, 109, 0.836);
+    color: lightgray;
+    border-radius: 20px;
+    color: white;
     
   }
   
-  textarea {
-    border: none;
-    border-bottom: 2px solid grey;
-    margin: 15px;
-    width: 300px;
-    
-  }
-  
-  #submit {
-    width: 200px;
-    color: grey;
-    border: none;
-    border-radius: 15px;
-    
-  }
 
-  .contact-container {
-      padding-top: 10px;
-      background: rgb(255, 255, 255);
-      font-family: 'Roboto', sans-serif;
-      clear: both;
-      width: auto;
-      font-family: 'Oswald', sans-serif;
-      padding-bottom: 10px;
-  }
+ ::placeholder {
+     color: white;
+ }
 
-  .contact-container h2 {
-    text-align: center;
-    text-transform: uppercase;
-    margin: 30px;
-  }
 
-  .contact-container p {
-      text-align: center;
-      font-size: 15px;
-  }
 
   .grid-container {
       grid-template-columns: 50% 50%;
+  }
+
+  #submit {
+      border: 1px solid white;
+      color: white;
+      width: 70px;
   }
