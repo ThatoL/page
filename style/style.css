@@ -3,8 +3,9 @@ body {
     padding: 0; 
     background: #E9ECEF;
     
-   
 }
+
+
 
 header {
     background: #805500;
@@ -15,10 +16,12 @@ header {
     border-radius: 10px;
     padding: 20px;
     margin: 10px;
+    
 }
 
 header .nav-container {
     align-items: flex-end;
+    color: whitesmoke;
 
 }
 
@@ -26,11 +29,15 @@ nav a {
     margin: 20px;
     padding: 10px;
     text-decoration: none;
-    color: rgb(8, 3, 3);;
+    color: rgb(8, 3, 3);
+    color: whitesmoke;
 }
 
+
+
 .name-container {
-    color: rgb(0, 0, 0);
+    
+    color: whitesmoke;
 }
 
 .img-container {
@@ -45,18 +52,25 @@ nav a {
     top: 80%;
     float: right;
     width: 40%;
-    right: 110px;
-    
+    padding: 20px;
     border-radius: 5px;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+
+    
+    
+    
 }
+
+
 
 main {
     color: rgb(8, 3, 3);
     margin: 10px;
     padding: 10px;
     font-family: 'Nunito Sans', sans-serif;
-   
-    font-weight: 950;
+    font-family: 900;
 
 }
 
@@ -129,7 +143,6 @@ form {
     margin: 5px;
     width: 300px;
     background: rgba(119, 119, 109, 0.836);
-    color: lightgray;
     border-radius: 20px;
     color: white;
     
@@ -138,9 +151,8 @@ form {
 
  ::placeholder {
      color: white;
+     
  }
-
-
 
   .grid-container {
       grid-template-columns: 50% 50%;
@@ -151,3 +163,8 @@ form {
       color: white;
       width: 70px;
   }
+
+  .about-me h2,p {
+    font-weight: bold;
+
+}
